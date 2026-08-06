@@ -4,6 +4,7 @@ const mahasiswa = {
     jurusan  : "Sastra Arab",
     status   : "Sudah Lulus",
 
- 
+
 }
  console.log(mahasiswa);
+ 
