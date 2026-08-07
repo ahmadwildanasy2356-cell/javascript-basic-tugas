@@ -4,3 +4,4 @@ for (let item in angka) {
   console.log(item);
 }
 // karena for in menghasilkan index //
+// hasilnya : 0,1,2 //
