@@ -1,3 +1,3 @@
 const pesan = "Saya suka belajar PHP";
 
-console.log(pesan.replaceAll("PHP", "JavaScript"));
+console.log(pesan.replace("PHP", "JavaScript"));
