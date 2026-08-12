@@ -19,4 +19,4 @@ penghitungA();
 penghitungB();
 
 // OUTPUT nya : 1 2 1 1 3 2
-// nilainya berbeda karena ada konsep closure jadinya punya nilai masing masing
+// nilainya berbeda karena ada konsep closure jadinya punya nilai masing masing dan memori yang berbeda beda
