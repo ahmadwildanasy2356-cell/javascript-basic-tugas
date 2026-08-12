@@ -21,29 +21,7 @@ console.log("");
 console.log("=======================");
 
 
-console.log("\n--- HASIL VALIDASI ---");
 
-if (namaBersih === "") {
-    console.log("Validasi Gagal: Nama produk tidak boleh kosong.");
-} else {
-    console.log("Nama produk valid.");
-}
-
-
-if (isNaN(hargaNumber)) {
-    console.log("Validasi Gagal: Harga harus berupa angka yang valid.");
-} else {
-    console.log("Harga produk valid.");
-}
-
-const diawaliProd = kodeProduk.startsWith("PROD");
-const diakhiri001 = kodeProduk.endsWith("001");
-
-if (diawaliProd && diakhiri001) {
-    console.log("Kode produk valid.");
-} else {
-    console.log("Validasi Gagal: Format kode produk salah.");
-}
 
 //1.untuk membuang spasi
 //2.replace : mengganti kata pertama yang ditemukan replaceAll : mengganti semua kata
