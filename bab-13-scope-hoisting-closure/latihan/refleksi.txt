@@ -1,0 +1,13 @@
+1.scope :  Batas wilayah akses sebuah variabel.
+2. global : Di luar fungsi, bisa diakses dari mana saja.
+   local  : Di dalam fungsi, hanya bisa diakses di dalam fungsi itu.
+3. block scope :    Variabel di dalam kurung kurawal { ... } (seperti if atau for) yang hanya hidup di dalam kurung tersebut.
+4. scope chain : Rantai pencarian variabel dari dalam fungsi keluar menuju global hingga data ditemukan.
+5. hoisting : Perilaku JavaScript yang seolah menaikkan deklarasi kode ke baris paling atas sebelum dijalankan.
+6. perbedaan : var: Bisa dipanggil duluan, hasilnya undefined.
+               let / const: Punya zona terlarang, jika dipanggil duluan akan langsung error
+
+7. closure : Fungsi anak yang tetap ingat data dari fungsi induknya meskipun fungsi induk sudah selesai berjalan.
+8. Karena data disimpan di dalam fungsi induk (lokal), sehingga orang luar tidak bisa mengubahnya secara langsung.
+9. Karena setiap fungsi dipanggil, JavaScript membuat ruangan memori baru yang terpisah dan tidak saling mengganggu.
+10. Menjaga keamanan data penting (seperti status login atau keranjang belanja) agar tidak mudah rusak atau diubah dari luar.
