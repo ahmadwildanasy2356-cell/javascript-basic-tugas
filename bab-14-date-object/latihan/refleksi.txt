@@ -1,0 +1,11 @@
+1. Membuat objek tanggal dan waktu saat ini (atau tanggal tertentu).
+2. karena inde dari nol
+3. getdate : tangga l bulanan
+   getday : hari mingguan
+4. Mengambil timestamp (jumlah milidetik sejak 1 Jan 1970).
+5. Karena bulan mulai dari 0, $+1$ dilakukan agar sesuai angka bulan 
+6. getter : Mengambil/membaca nilai tanggal.
+   setter :Mengubah/mengatur nilai tanggal.
+7. Mengubah format tanggal agar sesuai tampilan lokal
+8. Kurangi nilai getTime() kedua tanggal, lalu bagi dengan milidetik satu hari (1000 \ 60 \ 60 \ 24).
+9. Fitur check-in/check-out reservasi, hitung mundur (countdown) promo, timestamp chat ("2 jam lalu"), dan jadwal deadline.
