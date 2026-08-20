@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f6f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.dashboard {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.profile-card {
+    background: #e8f4fd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.profile-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.status-badge {
+    background: #2ecc71;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 15px;
+}
+
+.btn-hapus {
+    background: #fee2e2;
+    color: #e74c3c;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.btn-hapus:hover {
+    background: #e74c3c;
+    color: white;
+}
