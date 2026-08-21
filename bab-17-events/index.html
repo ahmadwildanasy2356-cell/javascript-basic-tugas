@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Tiket Bioskop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-blur">
+
+    </div>
+
+    <div class="container">
+        <!--  Form Pemesanan -->
+        <div class="card">
+            <h2>Form Pemesanan Tiket Bioskop</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label>Nama:</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama">
+              </div>
+             
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" id="email" placeholder="Masukkan email">
+                </div>
+                
+                <div class="form-group">
+                    <label>Judul Film:</label>
+                    <input type="text" id="judulFilm" placeholder="Masukkan judul film">
+                </div>
+
+                <div class="btn-group">
+                    <button type="submit" class="btn-submit">Pesan Tiket</button>
+                    <button type="button" id="btnReset" class="btn-reset">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Daftar Pesanan -->
+        <div class="card">
+            <h2>Daftar Pesanan</h2>
+            <ul id="daftarPesanan" class="ticket-list">
+                <li id="pesanKosong" class="empty-message">Belum ada tiket yang dipesan.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
